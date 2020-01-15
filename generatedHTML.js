@@ -40,54 +40,68 @@ return `<!DOCTYPE html>
             @page {
                 margin: 0;
             }
+            
             *,
             *::after,
             *::before {
                 box-sizing: border-box;
             }
+
             html, body {
                 padding: 0;
                 margin: 0;
             }
+
             html, body, .wrapper {
                 height: 100%;
             }
+
             .wrapper {
                 background-color: ${colors[data.color].wrapperBackground};
                 padding-top: 100px;
             }
+
             body {
                 background-color: white;
                 -webkit-print-color-adjust: exact !important;
                 font-family: 'Cabin', sans-serif;
             }
+
             main {
                 background-color: #E9EDEE;
                 height: auto;
                 padding-top: 30px;
             }
+
             h1, h2, h3, h4, h5, h6 {
                 font-family: 'BioRhyme', serif;
                 margin: 0;
             }
+
             h1 {
                 font-size: 3em;
             }
+
             h2 {
                 font-size: 2.5em;
             }
+
             h3 {
                 font-size: 2em;
             }
+
             h4 {
                 font-size: 1.5em;
             }
+
             h5 {
                 font-size: 1.3em;
             }
+
             h6 {
                 font-size: 1.2em;
             }
+
             .photo-header {
                 position: relative;
                 margin: 0 auto;
@@ -101,6 +115,7 @@ return `<!DOCTYPE html>
                 width: 95%;
                 border-radius: 6px;
             }
+
             .photo-header img {
                 width: 250px;
                 height: 250px;
@@ -110,29 +125,35 @@ return `<!DOCTYPE html>
                 border: 6px solid ${colors[data.color].photoBorderColor};
                 box-shadow: rgba(0, 0, 0, 0.3) 4px 1px 20px 4px;
             }
+
             .photo-header h1, .photo-header h2 {
                 width: 100%;
                 text-align: center;
             }
+
             .photo-header h1 {
                 margin-top: 10px;
             }
+
             .links-nav {
                 width: 100%;
                 text-align: center;
                 padding: 20px 0;
                 font-size: 1.1em;
             }
+
             .nav-link {
                 display: inline-block;
                 margin: 5px 10px;
             }
+
             .workExp-date {
                 font-style: italic;
                 font-size: .7em;
                 text-align: right;
                 margin-top: 10px;
             }
+
             .container {
                 padding: 50px;
                 padding-left: 100px;
